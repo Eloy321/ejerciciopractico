@@ -14,7 +14,10 @@ public class EjercicioPractico {
      
      
      Scanner entrada =new Scanner(System.in);
-     for(float i=1;i<=5;i++){
+     System.out.print("Introduce el numerto de temperaturas que desea introducir:\n");
+      int n;
+      n=entrada.nextInt();
+     for(float i=1;i<=n;i++){
        
          
      System.out.print("Introduce una temperatura:\n");
