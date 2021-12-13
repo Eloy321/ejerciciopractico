@@ -18,7 +18,7 @@ public class EjercicioPractico {
         System.out.print("Introduce el numero de temperaturas que desea introducir:\n");
         int n;
         n = entrada.nextInt();
-        for (float i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
 
             System.out.print("Introduce una temperatura:\n");
             temp = entrada.nextFloat();
