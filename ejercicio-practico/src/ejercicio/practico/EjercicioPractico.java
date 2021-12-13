@@ -10,11 +10,12 @@ public class EjercicioPractico {
     public static void main(String[] args) {
         System.out.println("Bienvenide");
         float temp, tempma, tempme;
-        tempma = 0;
-        tempme = 0;
+        //Como maximo 5000 en cada caso si no, no te cojera algunos numeros
+        tempma = -5000;
+        tempme = 5000;
 
         Scanner entrada = new Scanner(System.in);
-        System.out.print("Introduce el numerto de temperaturas que desea introducir:\n");
+        System.out.print("Introduce el numero de temperaturas que desea introducir:\n");
         int n;
         n = entrada.nextInt();
         for (float i = 1; i <= n; i++) {
