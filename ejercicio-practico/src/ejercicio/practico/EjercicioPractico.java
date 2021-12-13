@@ -28,10 +28,10 @@ public class EjercicioPractico {
                 tempma=temp;
             } 
             if(temp >= 0) {
-                System.out.println("Positivo");
+                System.out.println("Temperatura positiva");
 
             } else {
-                System.out.println("Negativo");
+                System.out.println("Temperatura negativa");
 
             }
             if (temp > tempma) {
