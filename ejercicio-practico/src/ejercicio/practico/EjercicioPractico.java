@@ -10,7 +10,7 @@ public class EjercicioPractico {
     public static void main(String[] args) {
         System.out.println("Bienvenide");
         float temp, tempma, tempme;
-        //Como maximo 5000 en cada caso si no, no te cojera algunos numeros
+        //Como máximo 5000 en cada caso si no, no te cogerá algunos números
         tempma = -5000;
         tempme = 5000;
 
@@ -27,7 +27,7 @@ public class EjercicioPractico {
                 tempme=temp;
                 tempma=temp;
             } 
-            if(temp > 0) {
+            if(temp >= 0) {
                 System.out.println("Positivo");
 
             } else {
@@ -45,7 +45,7 @@ public class EjercicioPractico {
 
         }
 
-        System.out.println("Mayor es igual    " + tempma + "  Menor es igual     " + tempme);
+        System.out.println("La temperatura mayor es " + tempma + "  y la temperatura menor es " + tempme);
 
     }
 
