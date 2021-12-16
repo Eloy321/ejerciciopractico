@@ -10,7 +10,7 @@ public class EjercicioPractico {
     public static void main(String[] args) {
         System.out.println("Bienvenide");
         float temp, tempma, tempme;
-        
+        //Float.MIN_VALUE representa el menor valor posible de Float y MAX_VALUE es el valor maximo que puede alcanzar los Float.
         tempma = Float.MIN_VALUE;
         tempme = Float.MAX_VALUE;
 
