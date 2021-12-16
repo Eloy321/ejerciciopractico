@@ -10,9 +10,9 @@ public class EjercicioPractico {
     public static void main(String[] args) {
         System.out.println("Bienvenide");
         float temp, tempma, tempme;
-        //Como máximo 5000 en cada caso si no, no te cogerá algunos números
-        tempma = -5000;
-        tempme = 5000;
+        
+        tempma = Float.MIN_VALUE;
+        tempme = Float.MAX_VALUE;
 
         Scanner entrada = new Scanner(System.in);
         System.out.print("Introduce el numero de temperaturas que desea introducir:\n");
