@@ -1,24 +1,31 @@
 package ejercicio.practico;
 
+/**
+ * Clase temperas para gestionar las temperaturas de los municipios
+ *
+ * @autor Eloy Beltrán
+ */
 import java.util.*;
 
 public class EjercicioPractico {
 
     /**
-     * @param args the command line arguments
+     * Metodo main quu a partir de unas temperaturas indica cual es la cual es
+     * mayor y cual es menor y de donde es cada temperatura
+     *
+     * @param args Argumentos de linea de comandos
+     *
      */
     public static void main(String[] args) {
         System.out.println("Bienvenide");
         float tempma, tempme;
-       
+
         //Float.MIN_VALUE representa el menor valor posible de Float y MAX_VALUE es el valor maximo que puede alcanzar los Float.
         tempma = Float.MIN_VALUE;
         tempme = Float.MAX_VALUE;
 
         Scanner entrada = new Scanner(System.in);
-        
-        System.out.println("Introduce el nombre del municipio");
-        = entrada.nextLine();
+
         System.out.print("Introduce el numero de temperaturas que desea introducir:\n");
         int n, i = 0;
         n = entrada.nextInt();
@@ -59,4 +66,13 @@ public class EjercicioPractico {
 
     }
 
+    /**
+     * Método suma para que sume dos números
+     * @param a Primer número  a sumar 
+     * @param b Segundo número a explicar
+     * @return Devuelve el resultado de la suma
+     */
+    public static int suma(int a, int b) {
+        return a + b;
+    }
 }
