@@ -10,7 +10,7 @@ import java.util.*;
 public class EjercicioPractico {
 
     /**
-     * Metodo main quu a partir de unas temperaturas indica cual es la cual es
+     * Metodo main que a partir de unas temperaturas indica cual es la cual es
      * mayor y cual es menor y de donde es cada temperatura
      *
      * @param args Argumentos de linea de comandos
